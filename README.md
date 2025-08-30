@@ -23,3 +23,18 @@
 
 ### Pipeline Overview
 
+1. ** Admin Setup**
+   - Secure login via React dashboard (Firebase Email/Password Auth).
+   - Upload user images through the UI.
+
+2. **Enrollment Phase**
+   - `face_embeddings.py` automatically  generates and stores `.npy` face embeddings for new users.
+
+3. **Attendance Marking**
+   - `attendance_system.py` runs a live camera feed, matches faces, and logs attendance in Firebase.
+
+4. **Admin Actions**
+   - View history, filter records, override or correct entries, and manage users/roles in real-time.
+
+---
+
