@@ -23,7 +23,7 @@
 
 ### Pipeline Overview
 
-1. ** Admin Setup**
+1. **Admin Setup**
    - Secure login via React dashboard (Firebase Email/Password Auth).
    - Upload user images through the UI.
 
